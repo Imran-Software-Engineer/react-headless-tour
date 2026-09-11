@@ -1,6 +1,6 @@
 {
   "name": "react-headless-tour",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fully customizable, headless product tour / onboarding library for React & Next.js. All the logic, none of the opinions — bring your own theme.",
   "keywords": [
     "react",
