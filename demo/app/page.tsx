@@ -8,10 +8,7 @@ import {
   type TourCardProps,
 } from "react-headless-tour";
 
-/* ================================================================== */
-/*  TODO: replace with the real repository URL when available          */
-/* ================================================================== */
-const GITHUB_URL = "https://github.com/your-username/react-headless-tour";
+const GITHUB_URL = "https://github.com/Imran-Software-Engineer/react-headless-tour";
 
 const steps: TourStep[] = [
   {

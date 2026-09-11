@@ -54,5 +54,14 @@
     "react-dom": "^18.3.1",
     "tsup": "^8.3.5",
     "typescript": "^5.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imran-Software-Engineer/react-headless-tour.git"
+  },
+  "homepage": "https://github.com/Imran-Software-Engineer/react-headless-tour#readme",
+  "bugs": {
+    "url": "https://github.com/Imran-Software-Engineer/react-headless-tour/issues"
+  },
+  "author": "Imran (https://github.com/Imran-Software-Engineer)"
 }
