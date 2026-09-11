@@ -1,0 +1,58 @@
+{
+  "name": "react-headless-tour",
+  "version": "0.1.0",
+  "description": "Fully customizable, headless product tour / onboarding library for React & Next.js. All the logic, none of the opinions — bring your own theme.",
+  "keywords": [
+    "react",
+    "nextjs",
+    "tour",
+    "product-tour",
+    "onboarding",
+    "walkthrough",
+    "headless",
+    "spotlight",
+    "guide",
+    "tooltip"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "demo": "npm run dev --prefix demo"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "@floating-ui/react-dom": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}

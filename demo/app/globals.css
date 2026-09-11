@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #fafafa;
+  --panel: #ffffff;
+  --ink: #16181d;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+  --brand: #4f46e5;
+  --brand-soft: #eef2ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+/* ---- Dark tour theme: nothing but CSS variables ---- */
+.themed-tour {
+  --tour-bg: #16181d;
+  --tour-fg: #f9fafb;
+  --tour-muted: #9ca3af;
+  --tour-accent: #4f46e5;
+  --tour-accent-fg: #ffffff;
+  --tour-radius: 14px;
+  --tour-border: 1px solid rgba(255, 255, 255, 0.14);
+  --tour-overlay-color: rgba(10, 12, 24, 0.68);
+}

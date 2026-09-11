@@ -1,0 +1,25 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-headless-tour": "file:../../../../../private/tmp/claude-501/-Users-imranaslam-Projects-tour-library/076f000b-752c-4cec-88f5-576621261817/scratchpad/react-headless-tour-0.1.0.tgz"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "typescript": "^5"
+  }
+}
