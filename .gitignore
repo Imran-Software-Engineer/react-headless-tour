@@ -3,3 +3,9 @@ dist
 .next
 *.tgz
 .DS_Store
+
+# local editor/tooling config — keep out of the repo
+.claude/
+CLAUDE.md
+.env
+.env.*
