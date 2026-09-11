@@ -1,8 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-/* TODO: replace with the real production domain when the site is deployed. */
-const SITE_URL = "https://react-headless-tour.example.com";
+const SITE_URL = "https://react-headless-tour-mu.vercel.app";
 
 const TITLE = "react-headless-tour — 4.5 kB fully customizable product tours for React & Next.js";
 const DESCRIPTION =

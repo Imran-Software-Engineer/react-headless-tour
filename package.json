@@ -59,7 +59,7 @@
     "type": "git",
     "url": "git+https://github.com/Imran-Software-Engineer/react-headless-tour.git"
   },
-  "homepage": "https://github.com/Imran-Software-Engineer/react-headless-tour#readme",
+  "homepage": "https://react-headless-tour-mu.vercel.app",
   "bugs": {
     "url": "https://github.com/Imran-Software-Engineer/react-headless-tour/issues"
   },

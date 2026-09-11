@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const SITE_URL = "https://react-headless-tour.example.com";
+const SITE_URL = "https://react-headless-tour-mu.vercel.app";
 
 export default function robots(): MetadataRoute.Robots {
   return {
